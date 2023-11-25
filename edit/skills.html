@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MSKhan</title>
+  <link rel = "stylesheet" href="style.css" />
+  <style>
+    h2 {
+        font-family: Verdana, sans-serif;
+        font-size: 20px;
+        color: #800080; 
+    }
+    .custom-list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;    
+    }
+
+    .custom-list li {
+        margin-bottom: 10px;
+        margin-right: 20px; 
+    }
+    .custom-list li::before {
+        content: '\02023'; 
+        margin-right: 5px; 
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href = "index.html">About</a></li>  
+                <li><a href= "projects.html">Projects</a></li>
+                <li><a style = "color: #800080" href = "skills.html">Skills</a></li>
+                <li><a href = "education.html">Education</a></li>  
+                <li><a href = "contact.html">Contact</a></li> 
+                <li><a href = "interests.html">Interests</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class = "page_div">
+        <div class = "leftcolumn">
+            <main>
+                <img src = "https://i.pinimg.com/736x/e2/4d/70/e24d702c92e663a3381d514cb01e2671.jpg" alt = "Rick Astley's">
+                <p style = "font-size: 23px"> Mobha Saleem Khan </p>
+                <p style = "font-size: 18px"> Software Engineering Student</p>
+                <p style = "color: #800080"> khan.mobha@gmail.com</p>
+                <p style = "color: #800080"> mobha.khan@ucalgary.ca</p>
+            </main>
+        </div>
+        <div class = "rightcolumn">
+            <main>
+                <p class="title">Skills</p>
+            
+                <h2>Programming Languages:</h2>
+                <ul class="custom-list">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C/C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                </ul>
+            
+                <h2>Databases:</h2>
+                <ul class="custom-list">
+                    <li>MySQL</li>
+                </ul>
+            
+                <h2>Front-end Frameworks:</h2>
+                <ul class="custom-list">
+                    <li>React</li>
+                    <li>React Native</li>
+                </ul>
+            
+                <h2>Cloud Services:</h2>
+                <ul class="custom-list">
+                    <li>AWS (Amazon Web Services)</li>
+                </ul>
+            </main>            
+    </div>
+    <div class="footer">
+        &copy; Mobha Khan
+    </div> 
+</body>
+</html>
